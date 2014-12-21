@@ -3,6 +3,8 @@ package org.functionalkoans.forscala
 import org.scalatest.matchers.ShouldMatchers
 import support.KoanSuite
 
+// DONE
+
 class AboutLiteralNumbers extends KoanSuite with ShouldMatchers {
   koan("Integer Literals are 32-bit and can be created from decimal, hexadecimal") {
     val a = 2

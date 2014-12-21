@@ -2,6 +2,8 @@ package org.functionalkoans.forscala
 
 import org.functionalkoans.forscala.support.KoanSuite
 
+// DONE
+
 case class Board(length: Int, height: Int) {
   case class Coordinate(x: Int, y: Int) {
     require(0 <= x && x < length && 0 <= y && y < height)

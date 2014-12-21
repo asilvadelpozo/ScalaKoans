@@ -2,6 +2,8 @@ package org.functionalkoans.forscala
 
 import support.KoanSuite
 
+// DONE
+
 class AboutRange extends KoanSuite {
 
   koan("Range are not inclusive at end of range") {

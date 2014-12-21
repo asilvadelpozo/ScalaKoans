@@ -19,12 +19,12 @@ class AboutUniformAccessPrinciple extends KoanSuite {
 
   koan("Can access age as parameterless method") {
     val me = new CalculatesAgeUsingMethod(2010, 2003)
-    me.age should be(__)
+    me.age should be(7)
   }
 
   koan("Can access age as property") {
     val me = new CalculatesAgeUsingProperty(2010, 2003)
-    me.age should be(__)
+    me.age should be(7)
   }
 
   koan("Cannot add parameter to Method invocation") {
@@ -35,17 +35,15 @@ class AboutUniformAccessPrinciple extends KoanSuite {
   koan("What happens when I update current year using property") {
     val me = new CalculatesAgeUsingProperty(2010, 2003)
 
-
     me.currentYear = 2011
-    me.age should be(__)
+    me.age should be(7)
   }
 
   koan("What happens when I update current year using method") {
     val me = new CalculatesAgeUsingMethod(2010, 2003)
 
-
     me.currentYear = 2011
-    me.age should be(__)
+    me.age should be(8)
   }
 
 

@@ -2,6 +2,8 @@ package org.functionalkoans.forscala
 
 import support.KoanSuite
 
+// DONE
+
 class AboutClasses extends KoanSuite {
 
 

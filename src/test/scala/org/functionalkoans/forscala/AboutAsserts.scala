@@ -3,6 +3,8 @@ package org.functionalkoans.forscala
 import org.scalatest.matchers.ShouldMatchers
 import support.KoanSuite
 
+// DONE
+
 // meditate on AboutAsserts to see how the Scala Koans work
 class AboutAsserts extends KoanSuite with ShouldMatchers {
 

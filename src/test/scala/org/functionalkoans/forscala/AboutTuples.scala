@@ -3,6 +3,8 @@ package org.functionalkoans.forscala
 import support.KoanSuite
 import java.util.Date
 
+// DONE
+
 class AboutTuples extends KoanSuite {
 
   koan("Tuples can be created easily") {
